@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.wrapper{
+    width: 100%;
+    height: 1000px;
+    background-color: whitesmoke;
+   
+}
+
+/* Header */
+
+.wrapper .header{
+    width: 100%;
+    height: 85px;
+    background-color: white;
+    box-shadow: 1px 1px 1px rgb(231, 231, 231);
+    position: relative;
+}
+
+.wrapper .header .logo img{
+    width: 115px;
+    margin-left: 150px;
+    margin-top: 10px;
+   
+}
+
+.wrapper .header .menu .cart{
+    margin-top: -45px;
+    margin-right: 250px;
+    float: right;
+
+}
+
+.wrapper .header .menu .cart a{
+    float: left;
+
+}
+
+.wrapper .header .menu .cart a i{
+   font-size: 19px;
+   color: rgb(150, 150, 150);
+   margin-right: 20px;
+   float: left;
+
+}
+
+.wrapper .header .menu .cart #border{
+    border-right: 1px solid rgb(214, 214, 214);
+    height: 25px;
+}
+
+.wrapper .header .sign{
+    float: right;
+    margin-top: -45px;
+    margin-right: 35px;
+}
+
+.wrapper .header .sign a{
+    margin-left: 25px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(143, 143, 143);
+}
+
+.wrapper .header .sign #button{
+    width: 100%;
+    background-color: rgb(51, 131, 236);
+    padding: 9px 30px;
+    border-radius: 30px;
+    color: white;
+}
+
+.wrapper .header .sign #button:hover{
+    background-color:rgb(20, 101, 207);
+}
+
+.wrapper .header .sign a:hover{
+    color: rgb(24, 109, 236);
+}
+
+
+/* Content */
+
+.content{
+    width: 85%;
+    height: 1000px;
+    margin-left: 10%;
+    position: relative;
+}
+
+.content .banner{
+    margin-top: 30px;
+    position: absolute;
+}
+
+.content .banner img{
+    box-shadow: 1px 2px 5px rgb(175, 173, 173);
+}
+
+
+.content .card .box1, .box2, .box3{
+    width: 360px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 280px;
+    box-shadow: 1px 1px 6px rgb(59, 59, 59);
+}
+
+
+.content .card .box2{
+    margin-left: 400px;
+}
+
+.content .card .box3{
+    margin-left: 800px;
+}
+/* .content .card .box2{
+    width: 360px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 380px;
+    box-shadow: 1px 1px 6px rgb(59, 59, 59);
+}
+
+.content .card .box3{
+    width: 360px;
+    height: 400px;
+    background-color: rgb(255, 255, 255)(255, 238, 238);
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 760px;
+    box-shadow: 1px 1px 6px rgb(59, 59, 59);
+} */
+
+.wrapper .content .card img{
+     width: 360px;
+     z-index: 0;
+     position: relative;
+     margin-bottom: 20px;
+  
+}
+
+.wrapper .content .card img:hover{
+    opacity: 0.8;
+    filter: brightness(50%);
+}
+
+.wrapper .content .card a{
+    text-decoration: none;
+}
+
+.wrapper .content .card a h1{
+
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(61, 61, 61);
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.wrapper .content .card a h1:hover{
+    color: rgb(27, 101, 170);
+}
+
+
+/* sidebar */
+
+.wrapper .sidebar{
+    position: absolute;
+    width: 50px;
+    height: 1000px;
+    background-color: rgb(255, 208, 0);
+    margin-top: -1090px;
+    padding-right: 18px;
+    box-shadow: 1px 1px 5px rgb(194, 194, 194);
+}
+
+
+.wrapper .sidebar ul{
+    margin-top: 23px;
+    margin-left: 14px;
+}
+
+.wrapper .sidebar ul li{
+    line-height: 55px;
+    list-style: none;
+}
+.wrapper .sidebar ul li img{
+    width: 40px;
+   
+}
+
+.wrapper .sidebar ul #notif5{
+    width: 30px;
+    margin-left: 4px;
+}
+
+.wrapper .sidebar ul a li img:hover{
+    opacity: 0.3;
+}
+
+
+
+
+
+
